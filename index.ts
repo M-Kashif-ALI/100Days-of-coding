@@ -46,5 +46,84 @@ let myFavouriteNum = 6;
 // Q3
 let names = ['Arham', 'Zain', 'Mudassir'];
 for(let name of names){
-  console.log(`Hi ${name}, have a nice day`);
+  // console.log(`Hi ${name}, have a nice day`);
 };
+
+// DAY5:
+
+// Q1
+let myFavTransportation:string[] = ['Tesla car', 'Honda motorcycle'];
+myFavTransportation.forEach(transport => {
+  // console.log(`I like to had a ${transport}.`); 
+});
+
+// Q2
+let listOfPeopleToInvite:string[] = ['Arham', 'Zain', 'Mudassir'];
+listOfPeopleToInvite.forEach(guest => {
+  // console.log(`Dear ${guest} you are invited to had a dinner with us.`);
+});
+
+// Q3 
+let unableToAttend  = 'Zain';
+// console.log(`${unableToAttend} can not make it.`);
+
+let newGuest = 'sheharyar';
+listOfPeopleToInvite[listOfPeopleToInvite.indexOf(unableToAttend)] = newGuest;
+
+listOfPeopleToInvite.forEach(guest => {
+  // console.log(`Dear ${guest}, you are invited to had a dinner with us.`);
+});
+
+// DAY6:
+
+// Q1
+let guests:string[] = ['Arham', 'sheharyar', 'Mudassir'];
+// console.log('Great news! I have found a bigger dinner table');
+
+guests.push('Shoukat');
+guests.splice(guests.length / 2, 0 , 'Muzammil');
+guests.unshift('Salman');
+
+guests.forEach(guest => {
+  // console.log(`Dear ${guest}, you are invited to had a dinner with us.`);
+});
+
+// Q2
+// console.log('Sorry! for bad news bigger table won,t arrive in time');
+
+while (guests.length > 2) {
+  let removedguest = guests.pop()
+  // console.log(`Sorry ${removedguest} I can't invite you to dinner.`);
+};
+
+guests.forEach(guest => {
+  // console.log(`Dear ${guest}, you are invited to had a dinner with us.`);
+});
+
+guests.splice(0, guests.length)
+// console.log(guests);
+
+// Q3
+let places: string[] = ["New Zealand", "Iceland", "Japan", "Switzerland", "Norway"];
+
+console.log("Original order:", places);
+
+console.log("Alphabetical order:", [...places].sort());
+
+console.log("Original order:", places);
+
+console.log("Reverse alphabetical order:", [...places].sort().reverse());
+
+console.log("Original order:", places);
+
+places.reverse();
+console.log("Reversed order:", places);
+
+places.reverse();
+console.log("Original order:", places);
+
+places.sort();
+console.log("Alphabetical order:", places);
+
+places.reverse();
+console.log("Reverse alphabetical order:", places);
