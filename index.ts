@@ -1,5 +1,7 @@
 //DAY 1:
 
+import { log } from "console";
+
 // Q1
 let Name = "Kashif Ali";
 // console.log(`Hello ${Name}, would you like to learn some TypeScript today?`);
@@ -106,24 +108,50 @@ guests.splice(0, guests.length)
 // Q3
 let places: string[] = ["New Zealand", "Iceland", "Japan", "Switzerland", "Norway"];
 
-console.log("Original order:", places);
+// console.log("Original order:", places);
 
-console.log("Alphabetical order:", [...places].sort());
+// console.log("Alphabetical order:", [...places].sort());
 
-console.log("Original order:", places);
+// console.log("Original order:", places);
 
-console.log("Reverse alphabetical order:", [...places].sort().reverse());
+// console.log("Reverse alphabetical order:", [...places].sort().reverse());
 
-console.log("Original order:", places);
+// console.log("Original order:", places);
 
-places.reverse();
-console.log("Reversed order:", places);
+// places.reverse();
+// console.log("Reversed order:", places);
 
-places.reverse();
-console.log("Original order:", places);
+// places.reverse();
+// console.log("Original order:", places);
 
-places.sort();
-console.log("Alphabetical order:", places);
+// places.sort();
+// console.log("Alphabetical order:", places);
 
-places.reverse();
-console.log("Reverse alphabetical order:", places);
+// places.reverse();
+// console.log("Reverse alphabetical order:", places);
+
+// DAY 7:
+
+// Q1
+let Guests:string[] = ['Arham', 'sheharyar', 'Mudassir', 'Zain', 'Sulaiman'];
+// console.log(`I am inviting ${Guests.length} people to dinner with me`);
+
+// Q2
+let countriesILikeToVisit = ['Dubai', 'saudia Arabia', 'Canada'];
+// console.log('Countries i like to visit', countriesILikeToVisit);
+
+// Q3
+let car: {name: string, color: string, model:number} = {
+  name: 'Toyota',
+  color: 'white',
+  model: 2023
+};
+// console.log(`Car name is ${car.name} and color it's ${car.color} and is model number is ${car.model}`);
+
+// DAY 8:
+
+// Q1
+let friend = ['shoukat', 'Abdullah', 'Maaz'];
+// console.log(friend[3]);
+
+// console.log(friend[2]);
