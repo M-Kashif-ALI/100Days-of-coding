@@ -155,3 +155,76 @@ let friend = ['shoukat', 'Abdullah', 'Maaz'];
 // console.log(friend[3]);
 
 // console.log(friend[2]);
+
+// Q2
+let book = 'Maths';
+// console.log("Is book == 'Maths' ? I predict True.");
+// console.log(book == 'Maths');
+
+// console.log("Is book == 'Chemistry' ? I predict False.");
+// console.log(book == 'Chemistry');
+
+// DAY9:
+
+// Q1
+
+let aleinColor = 'green';
+// if (aleinColor === 'green') {
+  // console.log('You killed the Alien.');
+// };
+
+// Q2
+aleinColor = 'blue';
+if (aleinColor === 'green'){
+  // console.log('you killed the normal Alein, and earned 5 points');
+} else {
+  // console.log('You earned 0 points');
+};
+
+// Q3
+aleinColor = 'red';
+// if (aleinColor === 'green') {
+//   console.log('you killed the normal level Alein, and earned 5 points');
+// } else if (aleinColor === 'yellow') {
+//  console.log('you killed the medium level Alein, and earned 10 points');
+// } else if (aleinColor === 'red') {
+//   console.log('you killed the Boss level Alein, and earned 20 points');
+// };
+
+// DAY10:
+
+// Q1
+let age: number = 15;
+// if (age < 4) {
+//   console.log('This is a kid');
+// } else if (age < 2) {
+//   console.log('This is a baby');
+// } else if (age < 12) {
+//   console.log('This is a boy');
+// } else if (age < 18) {
+//   console.log('This is a teenage');
+// } else if (age < 60) {
+//   console.log('This is a adult');
+// } else {
+//   console.log('This is a elder');
+// };
+
+// Q2
+let fruits:string[] = ["Apple", "Mango", "Banana"];
+// if (fruits.includes('Apple')) {
+//   console.log('You Really Like Apple');
+// } else if (fruits.includes('Banana')) {
+//   console.log('You Really Like Banana');
+// } else if (fruits.includes("Mango")) {
+//   console.log('You really likes Mango');
+// };
+
+// Q3
+let usernames = ['Admin', 'user1', 'user2', 'user3', 'user4'];
+usernames.forEach(username => {
+  if(username === 'Admin'){
+    console.log('Hello admin would you like to see todays report?');
+  } else {
+    console.log(`Hello ${username}, thank you for logging in again.`);
+  };
+});
